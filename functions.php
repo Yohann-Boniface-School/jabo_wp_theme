@@ -1,7 +1,7 @@
 <?php
 register_sidebar(
     [
-        'id'=>'blog-sidebar',
-        'name'=>'blog'
+        'id' => 'blog-sidebar',
+        'name' => 'blog'
     ]
 );
