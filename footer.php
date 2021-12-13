@@ -1,14 +1,6 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
-                <p>
-                    <button class="btn-toggle btn-foot" id="dark-mode-toggle">🌙</button>
-                </p>
-            </div>
-            <div class="clearfix col-md-12 col-sm-12">
-                <hr>
-            </div>
             <div class="col-md-6 col-sm-6">
                 <div class="footer-copyright">
                     <p>© 2021 SIO | All Rights Reserved.</p>
