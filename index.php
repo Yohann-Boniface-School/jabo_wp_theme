@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-<body class="light">
-
-<!-- Navigation section  -->
 
 <div class="navbar navbar-default navbar-static-top" role="navigation">
     <div class="container">
@@ -36,10 +33,13 @@
                     <div class="row">
                         <div class="col-8 col-7-large col-12-medium">
                             <header>
-                                <h1><strong>JABO </strong></h1>
+                                <h1>
+                                    <a href="<?= get_bloginfo('wpurl');?>">
+                                        <strong><?= get_bloginfo('description');?></strong>
+                                    </a>
+                                </h1>
                             </header>
-                            <p>Entreprise spécialisée dans la <strong>Désinsectisations</strong>, de nuisibles
-                            </p>
+                            <p><?= get_bloginfo('description');?></p>
                             <div  style="padding-top: 30px;" class="col-4 col-5-large col-12-medium">
                                 <span class="image fit"><img id="img2" class="logo_petit" src="../img/Noir_petit.png" alt="" /></span>
                             </div>

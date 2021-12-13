@@ -19,3 +19,5 @@
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
+
+<body class="light">
