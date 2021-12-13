@@ -39,9 +39,9 @@
 </footer>
 <!-- SCRIPTS -->
 
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script src="../js/custom.js"></script>
+<script src="<?= bloginfo('template_directory')?>/js/custom.js"></script>
+<script src="<?= bloginfo('template_directory')?>/js/bootstrap.min.js"></script>
+<script src="<?= bloginfo('template_directory')?>/js/custom.js"></script>
 <!-- <script src="js/app.js"></script> -->
 
 <?php wp_footer(); ?>
