@@ -12,7 +12,7 @@
         <div class="collapse navbar-collapse">
             <?php wp_nav_menu(
                     [
-                        'theme_location' => 'primary',
+                        'theme_location' => 'menu-principal',
                         'container' => 'ul',
                         'menu_class' => 'nav navbar-nav navbar-right'
                     ]

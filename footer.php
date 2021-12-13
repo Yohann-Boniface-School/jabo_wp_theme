@@ -29,9 +29,9 @@
 </footer>
 <!-- SCRIPTS -->
 
-<script src="<?= bloginfo('template_directory') ?>/js/custom.js"></script>
-<script src="<?= bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
-<script src="<?= bloginfo('template_directory') ?>/js/custom.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/custom.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_directory') ?>/js/custom.js"></script>
 
 <?php wp_footer(); ?>
 </body>

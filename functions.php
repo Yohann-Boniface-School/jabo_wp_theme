@@ -8,7 +8,6 @@ register_sidebar(
 
 register_nav_menus(
     [
-        'id' => 'primary-menu',
         'menu-principal' => 'Menu Principal'
     ]
 );
