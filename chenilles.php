@@ -20,9 +20,8 @@
 <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
 
 </head>
-<body>
+<body class="light">
 
-<!-- PRE LOADER -->
 
 <!-- Navigation section  -->
 
@@ -37,12 +36,12 @@
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="punaises.html">Punaises de Lit</a></li>
-                    <li><a href="guepes.html">Guêpes et Frelons</a></li>
-                    <li><a href="chenilles.html">Chenilles Processionnaires</a></li>
-                    <li><a href="tarifs.html">Tarifs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="punaises.php">Punaises de Lit</a></li>
+                    <li><a href="guepes.php">Guêpes et Frelons</a></li>
+                    <li><a href="chenilles.php">Chenilles Processionnaires</a></li>
+                    <li><a href="tarifs.php">Tarifs</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                </ul>
           </div>
      </div>
@@ -53,40 +52,51 @@
 
 <section id="single-project">
      <div class="container">
-          <div class="row">                 
+          <div class="row">               
                <div class="col-md-offset-1 col-md-10 col-sm-12">
-                    <h1 class="space">Guêpes et Frelons</h1>
-                    <p>Le frelon asiatique ou frelon à pattes jaunesest une espèce d'insecte hyménoptère de la famille des Vespidae. L'espèce est originaire d'Asie, avec une vaste aire de répartition dans des zones au climat tropical ou continental (Afghanistan, Inde, Chine, îles indonésiennes).</p>
+                    <h1 class="space">Chenilles Processionnaires</h1>
 
-                    <p  class="space2" >Une sous-espèce de couleur noire, a été introduite en France vers 2004 et s'est ensuite diffusée dans le reste de l'Europe, où elle est désormais une espèce invasive, parfois considérée nuisible. En avril 2020, ce frelon aurait colonisé presque toute la France, et a atteint le Portugal, l'Espagne, l'Italie, l'Allemagne, la Belgique, la Grande-Bretagne et les Pays-Bas.</p>
-                    <a href="https://www.leparisien.fr/societe/frelons-asiatiques-dix-choses-a-savoir-sur-cet-insecte-envahissant-20-09-2018-7896150.php" target="_blank"><i class="fa fa-long-arrow-right"></i> Plus d'informations</a>
+                    <p>La Processionnaire du pin est une espèce de papillons de la famille des Notodontidae, surtout connue pour ses chenilles. Nommées d'après leur mode de déplacement en file indienne, celles-ci se nourrissent des aiguilles de diverses espèces de pins, provoquant un affaiblissement important des arbres et des allergies chez certaines personnes exposées aux soies des chenilles.</p>
 
-                    <p class="space"></p>
+                    <a href="https://fr.wikipedia.org/wiki/Processionnaire_du_pin"><i class="fa fa-long-arrow-right"></i> Plus d'informations</a>
 
-                    <div class="col-md-6 col-sm-6">
-                         <img src="img/frelon.png" class="img-responsive border" alt="Portfolio">
+                    <div class="col-md-12 col-sm-12">
+                         <img src="img/chenilles-big.jpg" class="img-responsive border" alt="Portfolio">
                     </div>
 
                     <div class="col-md-6 col-sm-6">
-                         <img src="img/Frelon_asiatique_2.jpg" class="img-responsive border" alt="Portfolio">
+                         <img src="img/chenilles-little.png" class="img-responsive border" alt="Portfolio">
                     </div>
+
+                    <div class="col-md-6 col-sm-6">
+                         <img src="img/chenilles-little2.jpg" class="img-responsive border" alt="Portfolio">
+                    </div>
+
                     <div class="clearfix space"></div>
-                    <h3>Les guêpes :</h3>
-                    <p>
-                         Reconnaissable à leur abdomen jaune rayé de noir, elles se différencient de l’abeille par l’absence de poils. Elles mesurent entre 1 et 3 centimètres.
-                    </p>
-                    <h3>Les frelons :</h3>
-                    <p  class="space">
-                         L’européen : est reconnaissable a un abdomen orangé rayé de noir et mesure entre 1,8 et 2,5 centimètres.</br>
 
-                         L’asiatique : reconnaissable à sa tête et son abdomen noir avec quelques rayures oranges et mesure environ 3 centimètres.
-                    </p>                    
-                    <h3  class="space">
-                         NE VOUS APPROCHEZ PAS DES NIDS. LES PIQÛRES SONT TRÈS DOULOUREUSES ET PEUVENT PROVOQUER DES REACTIONS ALLERGIQUES.
-                    </h3>
                     <p>
-                         Nous sommes équipés pour traiter tous types de nids (enterré, toiture, haie, arbre etc.) En toute sécurité.
+                         Nous traitons 2 espèces de chenilles processionnaires: la chenille du pin et la chenille du chêne.</br>
                     </p>
+                    <p>  
+                         LES CHENILLES DU PIN : Brune avec des taches rouge et fortement velues, elles mesurent environ 4,5 centimètres. </br>
+                    
+                         Elles vivent dans des cocons à l’extrémité des branches et se nourrissent des aiguilles, ce qui en affaiblit votre arbre.
+                    </p>
+
+                    <p  class="space">
+                         LES CHENILLES DU CHÊNE : Grise argentée aux poils petits et soyeux,elles mesurent environ 3 centimètres.
+                         Elles vivent dans des cocons situés généralement sur les branches mais aussi sur les troncs et se nourrissent de votre arbre. </br>
+                    </p>
+                    <h3 class="space">                                    
+                         <U> LE CONTACT AVEC LES CHENILLES OU LEURS POILS EST TRÈS URTICANT ET PEUT PROVOQUER (ROUGEURS, DÉMANGEAISONS...) 
+                              </br> 
+                              DES GÊNES RESPIRATOIRES </br> 
+                              AINSI QU‘UN DANGER MORTEL POUR VOS ANIMAUX DE COMPAGNIE.
+                         </U>
+                    </h3>                                   
+                    <p>
+                         Nous sommes équipés pour traiter tous types de nids jusque 20 mètres en toute sécurité.
+                    </p> 
 
                </div>
 

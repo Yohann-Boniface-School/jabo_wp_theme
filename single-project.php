@@ -40,14 +40,14 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="index.html" class="navbar-brand"><img id="img3" src="img/Noir_petit.png"></a>
+               <a href="index.php" class="navbar-brand"><img id="img3" src="img/Noir_petit.png"></a>
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Punaise de Lit</a></li>
-                    <li><a href="about.html">Guêpes et Frelons</a></li>
-                    <li><a href="blog.html">Chenilles Processionnaires</a></li>
-                    <li><a href="contact.html">Tarifs</a></li>
+                    <li><a href="index.php">Punaise de Lit</a></li>
+                    <li><a href="about.php">Guêpes et Frelons</a></li>
+                    <li><a href="blog.php">Chenilles Processionnaires</a></li>
+                    <li><a href="contact.php">Tarifs</a></li>
                     <li><a href="#">Contact</a></li>
                </ul>
           </div>

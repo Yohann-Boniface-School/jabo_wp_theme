@@ -35,12 +35,12 @@
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="punaises.html">Punaises de Lit</a></li>
-                    <li><a href="guepes.html">Guêpes et Frelons</a></li>
-                    <li><a href="chenilles.html">Chenilles Processionnaires</a></li>
-                    <li><a href="tarifs.html">Tarifs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="punaises.php">Punaises de Lit</a></li>
+                    <li><a href="guepes.php">Guêpes et Frelons</a></li>
+                    <li><a href="chenilles.php">Chenilles Processionnaires</a></li>
+                    <li><a href="tarifs.php">Tarifs</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                </ul>
           </div>
      </div>
@@ -88,7 +88,7 @@
           <div class="row">
 
                <div class="col-md-4 col-sm-6">
-                    <a href="punaises.html">
+                    <a href="punaises.php">
                          <div class="portfolio-thumb">
                               <img src="img/punaise5.jpg" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -101,7 +101,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="guepes.html">
+                    <a href="guepes.php">
                          <div class="portfolio-thumb">
                               <img src="img/guepes.jpg" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -114,7 +114,7 @@
                </div>
 
                <div class="col-md-4 col-sm-6">
-                    <a href="chenilles.html">
+                    <a href="chenilles.php">
                          <div class="portfolio-thumb">
                               <img src="img/chenilles.jpg" class="img-responsive" alt="Portfolio">
                                    <div class="portfolio-overlay">
@@ -127,7 +127,7 @@
                </div>              
 
                <div class="col-md-12 col-sm-12 text-center">
-                    <h3>Intervention sur Demande, Devis personnalisés possibles : <a class = link-a href="contact.html">Page de Contact</a></h3>
+                    <h3>Intervention sur Demande, Devis personnalisés possibles : <a class = link-a href="contact.php">Page de Contact</a></h3>
                </div>  
           </div>
      </div>

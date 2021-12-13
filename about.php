@@ -40,14 +40,14 @@
                     <span class="icon icon-bar"></span>
                     <span class="icon icon-bar"></span>
                </button>
-               <a href="index.html" class="navbar-brand"><i class="fa fa-magnet"></i></a>
+               <a href="index.php" class="navbar-brand"><i class="fa fa-magnet"></i></a>
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Projects</a></li>
-                    <li class="active"><a href="about.html">Our Studio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Projects</a></li>
+                    <li class="active"><a href="about.php">Our Studio</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                </ul>
           </div>
 

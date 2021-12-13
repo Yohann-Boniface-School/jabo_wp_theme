@@ -35,12 +35,12 @@
           </div>
           <div class="collapse navbar-collapse">
                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Accueil</a></li>
-                    <li><a href="punaises.html">Punaises de Lit</a></li>
-                    <li><a href="guepes.html">Guêpes et Frelons</a></li>
-                    <li><a href="chenilles.html">Chenilles Processionnaires</a></li>
-                    <li><a href="tarifs.html">Tarifs</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="punaises.php">Punaises de Lit</a></li>
+                    <li><a href="guepes.php">Guêpes et Frelons</a></li>
+                    <li><a href="chenilles.php">Chenilles Processionnaires</a></li>
+                    <li><a href="tarifs.php">Tarifs</a></li>
+                    <li><a href="contact.php">Contact</a></li>
                </ul>
           </div>
      </div>
