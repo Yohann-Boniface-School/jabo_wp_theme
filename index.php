@@ -35,7 +35,7 @@
                             <header>
                                 <h1>
                                     <a href="<?= get_bloginfo('wpurl');?>">
-                                        <strong><?= get_bloginfo('description');?></strong>
+                                        <strong><?= get_bloginfo('name');?></strong>
                                     </a>
                                 </h1>
                             </header>
