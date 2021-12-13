@@ -11,8 +11,8 @@
 
     <title><?= get_bloginfo('name'); ?></title>
 
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/css/font-awesome.min.css">
 
     <!-- Main css -->
     <link rel="stylesheet" href="<?= bloginfo('template_directory') ?>/css/style.css">
