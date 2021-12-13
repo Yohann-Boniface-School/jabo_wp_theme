@@ -1,172 +1,100 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-<meta name="description" content="">
-<meta name="keywords" content="">
-<meta name="author" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
-
-<title>Jabo</title>
-
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/font-awesome.min.css">
-
-<!-- Main css -->
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
-
-</head>
+<?php get_header(); ?>
 <body class="light">
 
 
 <!-- Navigation section  -->
- 
+
 
 <div class="navbar navbar-default navbar-static-top" role="navigation">
-     <div class="container">  
-          <div class="navbar-header">
-               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-                    <span class="icon icon-bar"></span>
-               </button>
-          </div>
-          <div class="collapse navbar-collapse">
-               <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.php">Accueil</a></li>
-                    <li><a href="punaises.php">Punaises de Lit</a></li>
-                    <li><a href="guepes.php">Guêpes et Frelons</a></li>
-                    <li><a href="chenilles.php">Chenilles Processionnaires</a></li>
-                    <li><a href="tarifs.php">Tarifs</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-               </ul>
-          </div>
-     </div>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+                <span class="icon icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.php">Accueil</a></li>
+                <li><a href="punaises.php">Punaises de Lit</a></li>
+                <li><a href="guepes.php">Guêpes et Frelons</a></li>
+                <li><a href="chenilles.php">Chenilles Processionnaires</a></li>
+                <li><a href="tarifs.php">Tarifs</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <!-- Blog Single Post Section -->
 
 <section id="blog-single-post">
-     <div class="container">
-          <div class="row space">
-               <div class="col text-center">
-                    <h3 class="space">Tarifs Guêpes et Frelons :</h3>
+    <div class="container">
+        <div class="row space">
+            <div class="col text-center">
+                <h3 class="space">Tarifs Guêpes et Frelons :</h3>
+                <p>
+                    Tous nids à hauteur d’hommes : <b>99€</b></br>
+                    Tous nids supérieurs à la hauteur d’homme et jusque 10 mètres : <b>120€</b></br>
+                    Tous nids supérieur à 10 mètres et jusque 15 mètres : <b>150€</b></br>
+                    Au delà de 15 mètres et pour tous nids en accès difficile : <b>Sur devis</b>
+                </p>
+                <p>
+                    <b>Nos interventions sont garanties !!! </b>
+                </p>
+                <p>
+                    SOUCIEUX DE RACCOURCIR LES DÉLAIS D’INTERVENTION NOUS POUVONS ÊTRE AMENÉ A FAIRE APPEL A NOTRE SOUS-TRAITANT.</br>
+                    AVEC LES MÊMES CONDITIONS TARIFAIRES.
+                </p>
+            </div>
+        </div>
+        <div class="clearfix col-md-12 col-sm-12 space2">
+            <hr>
+        </div>
+        <div class="row space">
+            <div class="col">
+                <div class="space text-center">
+                    <h3 class="sc space">Tarifs Chenilles Processionnaires :</h3>
                     <p>
-                         Tous nids à hauteur d’hommes : <b>99€</b></br>
-                         Tous nids supérieurs à la hauteur d’homme et jusque 10 mètres : <b>120€</b></br>
-                         Tous nids supérieur à 10 mètres et jusque 15 mètres : <b>150€</b></br>
-                         Au delà de 15 mètres et pour tous nids en accès difficile : <b>Sur devis</b>
+                        Chenilles du pin : Enlèvement jusque 20 mètres de haut et brûlage.</br>
+                        <b>(80€ de déplacement + 10€ par cocon)</b></br>
+                        A partir du <b>10 ème cocon</b> le tarif passe à <b>8€</b> les cocons suivants. </br>
                     </p>
                     <p>
-                         <b>Nos interventions sont garanties !!! </b>
+                        Chenilles du chêne : <b>Sur devis.</b></br>
+                        Par soucis de rapidité d’intervention, nous pouvons être amené à faire appel à notre sous-traitant.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix col-md-12 col-sm-12 space2">
+            <hr>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="space text-center">
+                    <h3 class="sc space">Tarifs Punaises de Lit : </h3>
+                    <p>
+                        Déplacement  (Eure et loir et sud Yvelines) : <b>40€</b></br>
+                        Déplacement  (île de france et paris) : <b>80€</b>
                     </p>
                     <p>
-                         SOUCIEUX DE RACCOURCIR LES DÉLAIS D’INTERVENTION NOUS POUVONS ÊTRE AMENÉ A FAIRE APPEL A NOTRE SOUS-TRAITANT.</br>
-                         AVEC LES MÊMES CONDITIONS TARIFAIRES.
+                        En fonction de la surface des pièces :
+                    <p></p>
+                    De 0 à 30 mètres carrés : <b>15€ le mètre carré</b></br>
+                    De 30 à 60 mètres carrés : <b>12€ le mètre carre</b></br>
+                    De 60 à 100 mètres carrés : <b>10€ le mètre carre</b></br>
+                    Au delà de 100 mètres carrés : <b>sur devis</b></br>
                     </p>
-               </div>    
-          </div>
-          <div class="clearfix col-md-12 col-sm-12 space2">
-               <hr>
-          </div>
-          <div class="row space">
-               <div class="col">
-                    <div class="space text-center">
-                         <h3 class="sc space">Tarifs Chenilles Processionnaires :</h3>                                                                
-                         <p>
-                              Chenilles du pin : Enlèvement jusque 20 mètres de haut et brûlage.</br>
-                              <b>(80€ de déplacement + 10€ par cocon)</b></br>
-                              A partir du <b>10 ème cocon</b> le tarif passe à <b>8€</b> les cocons suivants. </br>
-                         </p>
-                         <p>
-                              Chenilles du chêne : <b>Sur devis.</b></br>
-                              Par soucis de rapidité d’intervention, nous pouvons être amené à faire appel à notre sous-traitant.
-                         </p>
-                    </div>
-               </div>    
-          </div>    
-          <div class="clearfix col-md-12 col-sm-12 space2">
-               <hr>
-          </div>      
-          <div class="row">
-               <div class="col">
-                    <div class="space text-center">
-                         <h3 class="sc space">Tarifs Punaises de Lit : </h3>
-                         <p>
-                              Déplacement  (Eure et loir et sud Yvelines) : <b>40€</b></br>
-                              Déplacement  (île de france et paris) : <b>80€</b>
-                         </p>
-                         <p>
-                              En fonction de la surface des pièces :
-                              <p></p>
-                              De 0 à 30 mètres carrés : <b>15€ le mètre carré</b></br>
-                              De 30 à 60 mètres carrés : <b>12€ le mètre carre</b></br>
-                              De 60 à 100 mètres carrés : <b>10€ le mètre carre</b></br>
-                              Au delà de 100 mètres carrés : <b>sur devis</b></br>
-                         </p>      
-                         <p>
-                              <b>Un supplément peut être demandé en fonction de l’encombrement des pièces</b>
-                         </p>           
-                    </div>
-               </div>
-          </div>         
-     </div>
+                    <p>
+                        <b>Un supplément peut être demandé en fonction de l’encombrement des pièces</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<!-- Footer Section -->
 
-<footer>
-     <div class="container">
-          <div class="row">
-
-               <div class="col-md-3 col-sm-3">
-                    <img id="img" src="img/Noir_petit.png">
-               </div>
-
-               <div class="col-md-4 col-sm-4">
-                    <p>Adresse de l'entreprise</p>
-               </div>
-
-               <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">                    
-                    <p><a href="tel:+330699206433">06 99 20 64 33</a></p>
-                    <p><button class="btn-toggle btn-foot" id="dark-mode-toggle">🌙</button></p>
-               </div>
-
-               <div class="clearfix col-md-12 col-sm-12">
-                    <hr>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <div class="footer-copyright">
-                         <p>© 2021 SIO | All Rights Reserved.</p></br>
-                         <a href="https://pixelbuddha.net/"> Licence : PixelBuddha.net</a>
-                    </div>
-               </div>
-
-               <div class="col-md-6 col-sm-6">
-                    <ul class="social-icon">
-                         <li><a href="https://fr-fr.facebook.com/pg/JABO-101120568535440/about/" target="_blank" class="fa fa-facebook"></a></li>
-                         <li><a href="#" class="fa fa-twitter"></a></li>
-                         <li><a href="#" class="fa fa-linkedin"></a></li>
-                    </ul>
-               </div>
-               
-          </div>
-     </div>
-</footer>
-</footer>
-
-
-<!-- SCRIPTS -->
-
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/app.js"></script>
-
-</body>
-</html>
+<?php get_footer(); ?>
